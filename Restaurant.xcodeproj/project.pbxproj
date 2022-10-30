@@ -13,6 +13,8 @@
 		9515CA12290829C700CB0A5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9515CA10290829C700CB0A5B /* Main.storyboard */; };
 		9515CA14290829C900CB0A5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9515CA13290829C900CB0A5B /* Assets.xcassets */; };
 		9515CA17290829C900CB0A5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9515CA15290829C900CB0A5B /* LaunchScreen.storyboard */; };
+		95941E14290D80AB0037BBC0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95941E13290D80AB0037BBC0 /* DetailViewController.swift */; };
+		95E8326B290E6F4E007DDF7A /* FoodSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E8326A290E6F4E007DDF7A /* FoodSection.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		9515CA13290829C900CB0A5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9515CA16290829C900CB0A5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9515CA18290829C900CB0A5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95941E13290D80AB0037BBC0 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		95E8326A290E6F4E007DDF7A /* FoodSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodSection.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				9515CA0A290829C700CB0A5B /* AppDelegate.swift */,
 				9515CA0C290829C700CB0A5B /* SceneDelegate.swift */,
+				95941E13290D80AB0037BBC0 /* DetailViewController.swift */,
 				9515CA0E290829C700CB0A5B /* ViewController.swift */,
+				95E8326A290E6F4E007DDF7A /* FoodSection.swift */,
 				9515CA10290829C700CB0A5B /* Main.storyboard */,
 				9515CA13290829C900CB0A5B /* Assets.xcassets */,
 				9515CA15290829C900CB0A5B /* LaunchScreen.storyboard */,
@@ -140,6 +146,8 @@
 			files = (
 				9515CA0F290829C700CB0A5B /* ViewController.swift in Sources */,
 				9515CA0B290829C700CB0A5B /* AppDelegate.swift in Sources */,
+				95941E14290D80AB0037BBC0 /* DetailViewController.swift in Sources */,
+				95E8326B290E6F4E007DDF7A /* FoodSection.swift in Sources */,
 				9515CA0D290829C700CB0A5B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,9 +309,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = sampilov.Restaurant;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -328,9 +339,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = sampilov.Restaurant;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

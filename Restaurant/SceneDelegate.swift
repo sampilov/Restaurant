@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  Restaurant
 //
-//  Created by Цырендылыкова Эржена on 25.10.2022.
+//  Created by Сампилов Ильдар on 25.10.2022.
 //
 
 import UIKit
